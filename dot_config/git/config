@@ -1,0 +1,8 @@
+[include]
+    path = ~/.gitconfig.local
+[commit]
+	template = ./.git_template
+[merge]
+	ff = false
+[pull]
+	ff = only

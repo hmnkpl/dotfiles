@@ -1,0 +1,17 @@
+[env]
+GOPATH = "~/go"
+_.path = [
+    "/opt/homebrew/bin(N-/)",
+    "/opt/homebrew/sbin(N-/)",
+    "/usr/bin",
+    "/usr/sbin",
+    "/bin",
+    "/sbin",
+    "/usr/local/bin(N-/)",
+    "/usr/local/sbin(N-/)",
+    "/Library/Apple/usr/bin",
+    "~/.local/share/bin",
+    "~/modules",
+    "~/Library/Application Support/JetBrains/Toolbox/scripts",
+    "$GOPATH/bin"
+]
