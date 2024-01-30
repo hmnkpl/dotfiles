@@ -1,0 +1,10 @@
+#!/bin/sh
+
+{{ if eq .chezmoi.os "darwin" }}
+brew bundle --global
+
+mkdir -p ~/repo/work
+mkdir -p ~/repo/hobby
+
+finch vm init
+{{end}}
