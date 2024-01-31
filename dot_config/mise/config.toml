@@ -13,3 +13,6 @@ _.path = [
     "~/modules",
     "~/Library/Application Support/JetBrains/Toolbox/scripts"
 ]
+
+[settings]
+experimental = true
