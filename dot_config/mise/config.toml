@@ -10,7 +10,7 @@ _.path = [
     "/usr/local/sbin(N-/)",
     "/Library/Apple/usr/bin",
     "~/.local/share/bin",
-    "~/modules",
+    "~/Workspaces/.tools",
     "~/Library/Application Support/JetBrains/Toolbox/scripts"
 ]
 
