@@ -3,8 +3,7 @@
 {{ if eq .chezmoi.os "darwin" }}
 brew bundle --global
 
-mkdir -p ~/repo/work
-mkdir -p ~/repo/hobby
+mkdir -p ~/Workspaces/repo
+mkdir -p ~/Workspaces/sandbox
 
-finch vm init
 {{end}}
