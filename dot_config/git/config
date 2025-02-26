@@ -6,3 +6,9 @@
 	ff = false
 [pull]
 	ff = only
+[core]
+	quotepath = false
+[fetch]
+	prune = true
+[submodule]
+	recurse = true
