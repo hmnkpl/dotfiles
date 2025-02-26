@@ -1,0 +1,5 @@
+if [[ "$TERM_PROGRAM" == "vscode" ]]; then
+  eval "$(/opt/homebrew/bin/mise activate zsh --shims)"
+elif; then
+  eval "$(/opt/homebrew/bin/mise activate zsh)"
+fi
