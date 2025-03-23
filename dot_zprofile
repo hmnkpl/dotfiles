@@ -1,7 +1,13 @@
+if [[ "$(uname -m)" == "x86_64" ]]; then
+  MISE_PATH="/usr/local/bin/mise"
+else
+  MISE_PATH="/opt/homebrew/bin/mise"
+fi
+
 if [[ "$TERM_PROGRAM" == "vscode" ]]; then
-  eval "$(/opt/homebrew/bin/mise activate zsh --shims)"
-elif; then
-  eval "$(/opt/homebrew/bin/mise activate zsh)"
+  eval "$($MISE_PATH activate zsh --shims)"
+else
+  eval "$($MISE_PATH activate zsh)"
 fi
 
 alias run='mise tasks run'
