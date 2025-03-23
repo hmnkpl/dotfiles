@@ -1,18 +1,2 @@
-[env]
-_.path = [
-    "/opt/homebrew/bin(N-/)",
-    "/opt/homebrew/sbin(N-/)",
-    "/usr/bin",
-    "/usr/sbin",
-    "/bin",
-    "/sbin",
-    "/usr/local/bin(N-/)",
-    "/usr/local/sbin(N-/)",
-    "/Library/Apple/usr/bin",
-    "~/.local/share/bin",
-    "~/Workspaces/.tools",
-    "~/Library/Application Support/JetBrains/Toolbox/scripts",
-]
-
 [settings]
 experimental = true
