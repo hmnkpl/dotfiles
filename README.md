@@ -48,6 +48,18 @@ brew bundle --global
 - Warp
   - Show / Hide WindowのHotkeyを設定する
   - ※ 同じHotkeyでRaycastにも設定する
-  - Transparency を70%にする
+  - Transparency を95%にする
 - logicool optionsをインストール
-- キーボードのショートカットでctrlとcmdを入れ替える
+  - キーボードのショートカットでctrlとcmdを入れ替える
+
+### ~/mise.toml
+
+```sh
+cd ~
+touch mise.toml
+```
+
+```toml
+[env]
+HA_DEVICE_NAME = {{好きな英単語}}
+```
