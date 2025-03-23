@@ -3,3 +3,5 @@ if [[ "$TERM_PROGRAM" == "vscode" ]]; then
 elif; then
   eval "$(/opt/homebrew/bin/mise activate zsh)"
 fi
+
+alias run='mise tasks run'
