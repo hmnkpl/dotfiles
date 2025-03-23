@@ -2,11 +2,12 @@
 
 {{ if eq .chezmoi.os "darwin" }}
 
-/opt/homebrew/bin/brew bundle --global
+brew bundle --global
 
 rm ~/Documents/.localized
 rm ~/Downloads/.localized
 rm ~/Desktop/.localized
+rm ~/Library/.localized
 rm ~/Public/.localized
 rm ~/Pictures/.localized
 rm ~/Music/.localized
